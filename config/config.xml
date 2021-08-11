@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>SGBrowser</Name>
+    <Version>1.0.0</Version>
+    <Title>SGBrowser installer</Title>
+    <Publisher>SGBrowser Inc.</Publisher>
+
+    <InstallerWindowIcon>Icon.png</InstallerWindowIcon>
+    <InstallerApplicationIcon>installer</InstallerApplicationIcon>
+    <!--<Logo>Logo.png</Logo>-->
+
+    <StartMenuDir>SGBrowser</StartMenuDir>
+    <TargetDir>@ApplicationsDir@/SGBrowser</TargetDir>
+    <RunProgram>@TargetDir@/chrome.exe</RunProgram>
+    <MaintenanceToolName>sgbrowseruninstaller</MaintenanceToolName>
+
+
+    <!--<WizardShowPageList>false</WizardShowPageList>-->
+    <WizardDefaultWidth>1200</WizardDefaultWidth>
+    <WizardDefaultHeight>600</WizardDefaultHeight>
+    <WizardStyle>Classic</WizardStyle>
+    <ControlScript>controlscript.qs</ControlScript>
+    <StyleSheet>style.qss</StyleSheet>
+    <TitleColor>#414141</TitleColor>
+
+</Installer>
